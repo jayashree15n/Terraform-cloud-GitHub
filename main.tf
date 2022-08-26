@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "jayainfra" {
 	ami = "ami-05fa00d4c63e32376" 
-	instance_type = "t2.micro"
+	instance_type = "t3.micro"
 }
